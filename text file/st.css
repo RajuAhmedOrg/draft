@@ -1,0 +1,72 @@
+.menu ul {
+    margin: 0;
+    padding: 0;
+
+}
+ul li {
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+    background: rgb(142, 195, 216);
+    font: 1em sans-serif;
+    text-transform: uppercase;
+    position: relative;
+   
+}
+li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+ul li ul li {
+    float: none;
+   
+}
+ul li ul {
+    
+    position: relative;position: absolute;
+    top: 0 ;
+    left: 0 ;
+    display: none;
+    width: 100%;
+}
+ul li ul li {
+    background: rgb(165, 33, 33);
+    
+}
+ul li ul li ul {
+    position: absolute;
+    left: 100%;
+    background: rgb(231, 150, 150);
+    display: none;
+}
+ul li ul li ul li {
+    background: rgb(38, 179, 214);
+   display: none;
+   
+}
+ul li:hover ul {
+    display: block;
+}
+
+ul li ul li:hover ul li  {
+    display: block;
+   background-color: rgb(82, 85, 226);
+}
+li:hover {
+    background: rgb(203, 214, 45);
+}
+ul li ul li ul li:hover {
+    background: rgb(203, 214, 45);
+    border-radius: 0 30%;
+}
+p {
+    clear: both;
+}
+.triangle{
+    height: 10px;
+    width: 0px;
+    border-top : 200px solid red;
+    border-left: 100px  solid rgb(97, 196, 17);
+    border-right: 50px  solid rgb(47, 175, 9);
+    border-bottom: 8px solid rgb(31, 27, 27);
+}

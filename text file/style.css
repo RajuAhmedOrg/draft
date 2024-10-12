@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.main-area{
+    background: rgb(55, 70, 209);
+    color: #000;
+}
+.main-area:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.container{
+	width:80%;
+	margin: auto;
+}
+.logo{
+    float: left;
+    width: 40%;
+	font-size: 25px;
+	
+}
+a{
+	margin-top: 20px;
+	text-decoration:none;
+}
+.form{
+    float: left;
+    width: 60%;
+    padding-bottom: 10px;
+}
+label{
+    display: block;
+}
+.log1{
+    float: left;
+    margin-right: 10px;
+}
+.log2{
+    float: left;
+    margin-right: 10px;
+}
+.log3{
+    float: left;
+    margin-top: 18px;
+}
+.container_a{
+    float: left;
+    background: rgb(124, 142, 156);
+    width: 50%;
+    kotha.jpg);
+    height: 600px;
+    background-image: url(../forsa.jpg);
+}
+.right{
+    float: left;
+    background: rgb(107, 78, 78);
+    width: 50%;
+    height: 600px;
+}
+.h{
+    font-size: 32px;
+    font-style: italic;
+    color: rgb(204, 25, 165);
+    text-align: center;
+}
+   
+.right {
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+.right input{
+    font-size: 22px;
+}

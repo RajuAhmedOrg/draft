@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 15px; 0;
+}
+.logo-area a{
+    margin-top: 8px;
+    display: block;
+}
+.header-area{
+    background: rgba(7, 7, 124, 0.87);
+}
+.middle-area{
+    width: 80%;
+    margin: auto;
+}
+.logo-area{
+width: 30%;
+float: left;
+}
+.logo-area a img{
+    height:50px;
+}
+.login-area{
+width: 70%;
+float: left;
+}
+.header-area:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.log1{
+    float: left;
+    padding: 5px;
+}
+.log2{
+    padding: 5px;
+    float: left;
+}
+.log3{
+    padding: 22px;
+    float: left;
+}
+.log3 input{
+    float: left;
+}
+.f::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.login-area form{
+    float: right;
+}
+.login-area label{
+    color: white;
+    font-size: 14px;
+    padding: 5px 0;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.login-area input{
+    color: rgb(228, 193, 37);
+    display: block;
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.log2 a{
+    color: brown;
+   
+}
+a{
+     text-decoration:none ;
+}

@@ -1,0 +1,81 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Belvetica,Arial,sans-serif;
+	color:white
+}
+.header-area{
+	background:rgb(54, 54, 151);
+	padding: 15px 0;
+}
+.middle-area{
+	width:80%;
+	margin:auto;
+}
+.logo-area{
+	width:50%;
+	float:left;
+}
+.logo-area a{
+	margin-top:10px;
+	display:block;
+	font-size:40px;
+}
+.login-area{
+	width: 50%;
+	float:left;
+}
+
+.header-area:after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+.login-first{
+	float:left;
+}
+.login-second{
+	float:left;
+}
+.login-submit{
+	float:left;
+} 
+.amader-login:after{
+	content:" ";
+	display:block;
+	clear:both;
+}
+.login-area form{
+	float:right;
+}
+.login-area input{
+	display:block;
+	margin-right:10px;
+	cursor:pointer;
+}
+.login-area label{
+	color:white;
+	font-size:14px;
+	margin-bottom:5px;
+	display:block;
+	cursor:pointer;
+}
+.login-area a:hover{
+	text-decoration:underline;
+}
+.login-submit input{
+	color:rgb(140, 192, 223);
+	border: 1px wheat;
+	margin-top:23px;
+}
+.login-submit input:hover{
+	color: aquamarine;
+}
+.logo-area a:hover{
+	color:rgb(87, 175, 202);
+    font-size: 45px;
+}

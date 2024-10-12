@@ -1,0 +1,14 @@
+
+body{background:#FFC}
+#post1{color:#066;
+font-family:Tahoma;
+ text-align:justify;}
+
+#post2{color: rgb(93, 13, 173);
+font-family:tahoma;
+text-align:justify;}
+#mar{color:rgb(128, 16, 72);
+font-size:36px}
+#mar:hover{text-decoration: underline;color:beige;background: #066;}
+p img{ cursor: pointer;}
+p img:hover{ width: 400;height: 500px;}

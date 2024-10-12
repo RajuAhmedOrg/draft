@@ -1,0 +1,32 @@
+
+body{
+    margin: 5px;
+    padding: 10px;
+    background: #615c1a;
+}
+.top{
+    height: 100px;
+    background:green;
+}
+.left {
+height: 500px;
+width: 18%;
+background: #fff00f;
+float: left;
+}
+.midle{
+    height: 500px;
+    background: blue;
+    width: 70%;
+    float: left;
+    }
+.right{
+    height: 500px;
+    background: rgb(238, 146, 210);
+    width: 12%;
+    overflow: hidden;
+}
+.bottom{
+height: 50px;
+background: #066fb6;
+}

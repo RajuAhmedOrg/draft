@@ -1,0 +1,171 @@
+p{
+    color: rgb(8, 8, 7);
+    background: rgb(243, 207, 207);
+
+}
+h1{
+    color: rgb(231, 44, 44);
+}
+.class {
+   font-size: 22px;
+   color: rgb(189, 19, 189);
+}
+#id {
+    color: rgb(208, 211, 9);
+}
+.box {
+    background: rgb(158, 21, 124);
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    padding: 11px;
+    border: solid red 10px ;
+    position: relative;
+}
+.middle{
+    color: rgb(245, 234, 78);
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+}
+.fixed{
+    color: rgb(180, 12, 12);
+    position: fixed;
+    right: 0;
+    top: 25%;
+    background: rgba(19, 2, 2, 0.425);
+    padding: 10px 20px ;
+    border-radius:100% 100% 0 100%;
+}
+.color{
+    background-color: rgba(30, 255, 0, 0.445);
+    background-image: url("forsa.jpg");
+    background-repeat:repeat-x;
+    color: rgb(18, 182, 18);
+    font-size: 25px;
+}
+.OTHERS{
+    background: pink url(vul.jpg) no-repeat center;
+}
+a:hover {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    list-style: none;
+    background: rgb(228, 65, 65);
+    display: inline-block;
+    padding: 20px;
+}
+.menu ul li:hover{
+    background: rgb(76, 150, 235);
+}
+.menu ul li a {
+    color: white;
+    font-style: 30px;
+    text-decoration: none;
+}
+.font {
+    font-family: sans-serif;
+    background: #000;
+    color:#fff;
+    font-style: italic;
+    font-size: 28px;
+}
+/* Overflow, float, clear */
+.any{
+    width: 200px;
+    height: 100px;
+    background: #000;
+    color: rgb(238, 184, 184);
+    overflow: scroll;
+    
+}
+.a{
+    width: 200px;
+    height: 200px;
+    background: rgb(206, 109, 109);
+    float: left;
+}
+.b{
+    width: 300px;
+    height: 220px;
+    background: rgb(70, 10, 10);
+    float: right;
+}
+.c{
+    width: 250px;
+    height: 180px;
+    background: rgb(12, 167, 81);
+    clear: right;
+}
+.w{
+    width: 250px;
+    height: 200px;
+    background: rgb(55, 53, 231);
+    float: left;
+}
+.x{
+    width: 250px;
+    height: 200px;
+    background: red;
+    float: left;
+}
+.y{
+    width: 250px;
+    height: 200px;
+    background: rgb(25, 184, 33);
+    float: left;
+}
+.z{
+    width: 250px;
+    height: 200px;
+    background: rgb(204, 21, 180);
+    float: left;
+    clear: left;
+}
+.onno{
+    height: 150px;
+    width: 80%;
+    background: #555;
+    clear: both;
+    margin:0 auto;
+}
+.space {
+    clear: both;
+    height: 10px;
+}
+.position {
+    background: rgb(107, 92, 92);
+    width: 400px;
+    height: 250px;
+    clear: both;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+button {
+    position: absolute;
+    bottom: -100px;
+    transition: 2s;
+}
+.position:hover button {
+    position: absolute;
+    bottom: 150px;
+}
+.text {
+    position: absolute;
+    top: -100px;
+    transition: 2s;
+}
+.position:hover .text {
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    font: 1em sans-serif;
+}
